@@ -30,7 +30,7 @@ true.
 
 1. **Set up the environment** (`scripts/setup_env.sh`) — only once per machine.
 2. **Plan the narrative** — pick one idea, decide the visual that carries it.
-3. **Write the scene** — see `references/manim-cheatsheet.md`.
+3. **Write the scene** — see `references/animation-cheatsheet.md`.
 4. **Draft render fast** (`-ql`) and **verify frames** (`scripts/verify_frames.sh`).
 5. **Fix layout, iterate**, then **final render** (`-qh`).
 6. **Deliver** the mp4; optionally cut a vertical Short or write a voiceover.
@@ -111,7 +111,7 @@ class MyExplainer(Scene):
 
 Core API patterns (animations, `Axes`/`plot`, `ValueTracker` + `always_redraw`,
 positioning with `next_to`/`arrange`/`to_edge`, `VGroup`) are in
-`references/manim-cheatsheet.md`. Keep `references/no-latex-mode.md` open — the
+`references/animation-cheatsheet.md`. Keep `references/no-latex-mode.md` open — the
 two most common ways a no-LaTeX render crashes are **`DecimalNumber`** and
 **`Axes.get_axis_labels()`**, both of which secretly call LaTeX.
 
@@ -211,7 +211,7 @@ Offer natural follow-ups (don't assume):
 
 ## Reference files
 
-- `references/manim-cheatsheet.md` — core ManimCE API: mobjects, animations,
+- `references/animation-cheatsheet.md` — core ManimCE API: mobjects, animations,
   graphing, value trackers, positioning, colors, render flags.
 - `references/no-latex-mode.md` — how to make great videos with no LaTeX
   installed (and how to enable real LaTeX if wanted). **Read before writing
