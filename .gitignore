@@ -1,0 +1,18 @@
+# Manim output
+media/
+frames/
+*.mp4
+!examples/preview*.mp4
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.python-version
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
