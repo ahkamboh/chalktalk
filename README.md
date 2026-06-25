@@ -1,4 +1,4 @@
-# 🎬 manim-math-explainer
+# 🎬 chalktalk
 
 > An open-source **AI-agent Skill** for creating 3Blue1Brown-style animated
 > math, calculus, physics, and STEM explainer videos with
@@ -66,12 +66,12 @@ Install the skill where Claude Code discovers skills, then just ask:
 
 ```bash
 # personal (all projects):
-git clone https://github.com/ahkamboh/manim-math-explainer.git \
-  ~/.claude/skills/manim-math-explainer
+git clone https://github.com/ahkamboh/chalktalk.git \
+  ~/.claude/skills/chalktalk
 
 # or per-project:
-git clone https://github.com/ahkamboh/manim-math-explainer.git \
-  .claude/skills/manim-math-explainer
+git clone https://github.com/ahkamboh/chalktalk.git \
+  .claude/skills/chalktalk
 ```
 
 Then in a session:
@@ -93,7 +93,7 @@ scripts as needed (progressive disclosure).
 ## What's inside
 
 ```
-manim-math-explainer/
+chalktalk/
 ├── SKILL.md                      # entry point: the end-to-end workflow
 ├── scripts/
 │   ├── setup_env.sh              # bootstrap venv + Manim + cairo/pango/ffmpeg

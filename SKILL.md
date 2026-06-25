@@ -1,5 +1,5 @@
 ---
-name: manim-math-explainer
+name: chalktalk
 description: >-
   Create 3Blue1Brown-style animated math, calculus, physics, and STEM explainer
   videos with Manim (ManimCE). Use this skill whenever the user wants to make,
