@@ -10,6 +10,23 @@ Give your AI agent the ability to turn *"make me a video explaining why the
 derivative of x² is 2x"* into an actual rendered, narrated-quality animation —
 the kind you'd see on 3Blue1Brown.
 
+## ⚡ Paste this to your AI agent
+
+Copy this into **Claude Code** (or any coding agent). It installs the skill if
+needed, then builds your video — just swap in your own topic on the last line:
+
+```text
+Use the "chalktalk" skill to make a 3Blue1Brown-style animated math explainer video.
+
+Skill repo: https://github.com/ahkamboh/chalktalk
+
+If it isn't installed yet, clone it into your skills folder first:
+git clone https://github.com/ahkamboh/chalktalk.git ~/.claude/skills/chalktalk
+
+Then read its SKILL.md and follow it end-to-end to create a video explaining:
+why the derivative of x² is 2x        ← replace with any topic you want
+```
+
 <p align="center">
   <img src="assets/preview.gif" alt="Animated proof that d/dx[x²] = 2x" width="640">
 </p>
